@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <!--display-name>EmailSendingWebApp</display-name>
+    <context-param>
+        <param-name>host</param-name>
+        <param-value>smtp.gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>port</param-name>
+        <param-value>587</param-value>
+    </context-param>
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>amusermusic4@gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>pass</param-name>
+        <param-value>music4All</param-value>
+    </context-param-->
+    <servlet>
+        <servlet-name>reportingnow</servlet-name>
+        <servlet-class>report.reportingnow</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reportingnow</servlet-name>
+        <url-pattern>/reportingnow</url-pattern>
+    </servlet-mapping>
+</web-app>

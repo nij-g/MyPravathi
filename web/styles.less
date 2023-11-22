@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Oct, 2019, 9:01:22 PM
+    Author     : hp
+*/
+
+@bg-blue: #337ab7;
+@bg-hoki: #67809F;
+@bg-red: #e7505a;
+@bg-purple: #8E44AD;
+@bg-green: #3AC375;
+@bg-yellow: rgb(196, 199, 40);
+@bg-orange: rgb(216, 119, 9);
+@bg-skyblue: #0cb9d8;
+.wrapper {
+    position: relative;  
+}
+.heading{
+    margin: 25px 0;
+    font-size: 24px;  
+}
+.dashboard-stat {
+    position: relative;
+    display: block;
+    margin: 0 0 25px;
+    overflow: hidden;
+    border-radius: 4px;
+    .visual {
+        width: 80px;
+        height: 80px;
+        display: block;
+        float: left;
+        padding-top: 10px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        font-size: 35px;
+        line-height: 35px;
+        > i {
+            margin-left: -15px;
+            font-size: 110px;
+            line-height: 110px;
+            color: #fff;
+            opacity: .1;
+        }
+    }
+    .details {
+        position: absolute;
+        right: 15px;
+        padding-right: 15px;
+        color: #fff;
+        .number {
+            padding-top: 25px;
+            text-align: right;
+            font-size: 34px;
+            line-height: 36px;
+            letter-spacing: -1px;
+            margin-bottom: 0;
+            font-weight: 300;
+            .desc {
+                text-transform: capitalize;
+                text-align: right;
+                font-size: 16px;
+                letter-spacing: 0;
+                font-weight: 300;
+            }
+        }
+    }
+    &.blue {
+        background-color: @bg-blue;
+        transition: all 1000ms ease;
+        &:hover{
+            opacity:0.9;
+            transform: scale(0.9);
+            box-shadow: 6px 6px 5px #aaaaaa;
+        }
+    }
+    &.red {
+        background-color: @bg-red;
+        transition: all 1000ms ease;
+        &:hover{
+            opacity:0.9;
+            transform: scale(0.9);
+            box-shadow: 6px 6px 5px #aaaaaa;
+        }
+    }
+    &.purple {
+        background-color: @bg-purple;
+        transition: all 1000ms ease;
+        &:hover{
+            opacity:0.9;
+            transform: scale(0.9);
+            box-shadow: 6px 6px 5px #aaaaaa;
+        }
+    }
+    &.hoki {
+        background-color: @bg-hoki;
+        transition: all 1000ms ease;
+        &:hover{
+            opacity:0.9;
+            transform: scale(0.9);
+            box-shadow: 6px 6px 5px #aaaaaa;
+        }
+    }
+    &.green{
+        background-color: @bg-green;
+        transition: all 1000ms ease;
+        &:hover{
+            opacity:0.9;
+            transform: scale(0.9);
+            box-shadow: 6px 6px 5px #aaaaaa;
+        }
+    }
+    &.yellow{
+        background-color: @bg-yellow;
+        transition: all 1000ms ease;
+        &:hover{
+            opacity:0.9;
+            transform: scale(0.9);
+            box-shadow: 6px 6px 5px #aaaaaa;
+        }
+    }
+    &.orange{
+        background-color: @bg-orange;
+        transition: all 1000ms ease;
+        &:hover{
+            opacity:0.9;
+            transform: scale(0.9);
+            box-shadow: 6px 6px 5px #aaaaaa;
+        }
+    }
+    &.skyblue{
+        background-color: @bg-skyblue;
+    }
+}
